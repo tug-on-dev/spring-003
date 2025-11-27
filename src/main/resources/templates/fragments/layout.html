@@ -53,6 +53,11 @@
             <span th:text="#{vets}">Veterinarians</span>
           </li>
 
+          <li th:replace="~{::menuItem ('/drugs','drugs','drugs','medkit',#{drugs})}">
+            <span class="fa fa-medkit" aria-hidden="true"></span>
+            <span th:text="#{drugs}">Drugs</span>
+          </li>
+
           <li
             th:replace="~{::menuItem ('/oups','error','trigger a RuntimeException to see how it is handled','exclamation-triangle',#{error})}">
             <span class="fa exclamation-triangle" aria-hidden="true"></span>

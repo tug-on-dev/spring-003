@@ -51,3 +51,9 @@ INSERT INTO visits VALUES (default, 7, '2013-01-01', 'rabies shot');
 INSERT INTO visits VALUES (default, 8, '2013-01-02', 'rabies shot');
 INSERT INTO visits VALUES (default, 8, '2013-01-03', 'neutered');
 INSERT INTO visits VALUES (default, 7, '2013-01-04', 'spayed');
+
+INSERT INTO drugs VALUES (default, 'Amoxicillin', 25.99);
+INSERT INTO drugs VALUES (default, 'Carprofen', 45.50);
+INSERT INTO drugs VALUES (default, 'Metronidazole', 30.00);
+INSERT INTO drugs VALUES (default, 'Prednisone', 15.75);
+INSERT INTO drugs VALUES (default, 'Apoquel', 89.99);
