@@ -51,3 +51,9 @@ INSERT IGNORE INTO visits VALUES (1, 7, '2010-03-04', 'rabies shot');
 INSERT IGNORE INTO visits VALUES (2, 8, '2011-03-04', 'rabies shot');
 INSERT IGNORE INTO visits VALUES (3, 8, '2009-06-04', 'neutered');
 INSERT IGNORE INTO visits VALUES (4, 7, '2008-09-04', 'spayed');
+
+INSERT IGNORE INTO drugs VALUES (1, 'Amoxicillin', 25.99);
+INSERT IGNORE INTO drugs VALUES (2, 'Carprofen', 45.50);
+INSERT IGNORE INTO drugs VALUES (3, 'Metronidazole', 30.00);
+INSERT IGNORE INTO drugs VALUES (4, 'Prednisone', 15.75);
+INSERT IGNORE INTO drugs VALUES (5, 'Apoquel', 89.99);
